@@ -1,6 +1,7 @@
 function header(){
+  console.log("ああああ");
   $.ajax({
-      url: "../html/header.html",
+      url: "../include/header.html",
       cache: false,
       success: function(html){
           document.write(html);
