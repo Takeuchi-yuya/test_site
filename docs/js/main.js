@@ -2,10 +2,8 @@ function header(){
   console.log("ああああ");
   document.write("ブラウザ名：" + navigator.appName + "\n");
   var html = "";
-  html += '<head>'
-  html += '<link rel="stylesheet" href="../css/master.css" type="text/css">'
   html += '<div id = "navi">'
-  html += '<a href="#"> info  </a>'
+  html += '<a href="html/info.html"> info  </a>'
   html += '<a href="html/lab.html"> lab </a>'
   html +=  ' <a href="html/contents.html"> contents </a>'
   html +=  ' <a href="html/blog.html"> blog </a>'
@@ -13,6 +11,5 @@ function header(){
   html += '<div id = "logo">'
   html += '  <a href="index.html">博物屋</a>'
   html += '</div>'
-  html += '</head>'
   document.write(html);
 }
