@@ -1,6 +1,6 @@
 function header(){
   console.log("ああああ");
-  document.write("ブラウザ名：" + navigator.appName + "\n");
+  //document.write("ブラウザ名：" + navigator.appName + "\n");
   var html = "";
   html += '<div id = "navi">'
   html += '<a href="html/info.html"> info  </a>'
